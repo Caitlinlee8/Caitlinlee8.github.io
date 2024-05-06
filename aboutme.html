@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>About the Creator</title>
+ <link href='format.css' rel='stylesheet'>
+ <link href='layout.css' rel='stylesheet'>
+</head>
+<body>
+<div id='introduction'>
+<div class='content'>
+  <h1>About the Creator</h1>
+</div>
+<div class="Imagecenter">
+  <img src="img/Caitlin.jpg" alt="Me" width=600 height=450/>
+</div>
+  <p>Hi! My Name is Caitlin Callihan and I have been playing League of Legends since I was 13 years old. I have been playing Nami for 11 years. This character has been a defining
+part of my childhood and has followed me since. League of Legends is not a video game, but an esport, racking in views that beat the super bowl internationally every year. It is a hobby, sport,
+that involves mental dexterity similar to chess with all of its moving pieces although at first glance you cannot tell. I currently work as a secretary, but on the side I enjoy taking classes
+that teach me more about computers and coding. I hope to one day work with what I enjoy.  </p>
+<hr>
+<div class='content'>
+<h1>Contact Me</h1>
+<form action="Submissions.html" method="post">
+<h2>
+<hr> 
+<section class="Ask">
+          <label for="Questions">Ask me anything!</label>
+          <input type="text" name="Questions" id="Questions">
+</section>
+<hr>
+<section class="time">
+          <label for="date">What is the date and time of your submission?</label>
+          <input type="datetime" name="date" id="date">
+</section>
+<hr>
+<section class="Importance">
+          <label for="importance">How quick do you need a response?</label>
+          <br>
+          <span>Not important</span>
+          <input type="range" name="importance" id="importance" value="3" min="1" max="5">
+          <span>Important</span>
+        </section>
+<hr>
+<section class="response-selection">
+          <label for="response">How would you like me to contact you?</label>
+          <input list="selection" id="response" name="response">
+          <datalist id="selection">
+          <option value="Email"></option>
+          <option value="Text"></option>
+          <option value="Do not reply"></option>
+</datalist>
+</section>
+<hr>
+<section class="rate">
+          <span>Did you enjoy my website?</span>
+          <br>
+          <input type="checkbox" name="choice" id="positive" value="positive">
+          <label for="positive">Great</label>
+          <input type="checkbox" name="choice" id="neutral" value="neutral">
+          <label for="neutral">Fine</label>
+          <input type="checkbox" name="choice" id="negative" value="negative">
+          <label for="negative">No</label>
+</section>
+<hr>
+<section class="yesno">
+          <span>Would you like to see updates in the future?</span>
+          <br>
+          <input type="radio" name="yesno" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="yesno" id="no" value="yes">
+          <label for="no">No</label>
+</section>
+<hr>
+<section class="extra-info">
+          <label for="extra">Anything else you want to add?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="2" cols="30"></textarea>
+</section>
+<hr>
+<section class="submission">
+          <input type="submit" value="Submit"><button type="button" onclick="window.location.href='https://www.leagueoflegends.com/en-us/'">Leave</button><input type="reset" value="Reset">
+</section>
+<hr>
+</h2>
+</div>
+<div id="Directory">
+<div class="Directory">
+    <h1>Directory</h1>
+  <nav>
+   <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./lore.html">Lore</a></li>
+	<li><a href="./artwork.html">Artwork</a></li>
+	<li><a href="./gameplay.html">Gameplay</a></li>
+	<li><a href="./aboutme.html">About Me</a></li>
+   </ul>
+  </nav>
+</div>
+</form>
+</body>
+</html>

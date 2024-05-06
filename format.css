@@ -1,0 +1,137 @@
+body {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(25,27,150,1) 75%);
+}
+
+h1 {
+  color: #FFF;
+  font-family: Cursive;
+  background-color: lightblue;
+  color: GhostWhite;
+
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Cursive;
+  background-color: darkblue;
+  color: GhostWhite;
+}
+
+p {
+  color: aliceblue;
+  font-family: helvetica;
+  background-color: darkblue;
+  color: GhostWhite;
+}
+
+.caption {
+  display: block;
+  font-family: Cursive;
+  font-size: 14px;
+  font-style: cursive;
+  background-color: blue;
+  color: white; 
+}
+
+.Directory {
+  background-color: lightblue;
+  font-family: cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagecenter {
+	display: inline-flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+	flex-direction: column;
+}
+
+.Image1 {
+  background-image: url('img/SplendidStaffNami.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 630px; 
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Image2 {
+  background-image: url('img/SpaceGrooveNami.jpg'); 
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 630px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column; 
+}
+
+.Image3 {
+  background-image: url('img/CovenNami.jpg'); 
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 630px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column; 
+}
+
+.Image4 {
+  background-image: url('img/KoiNami.jpg'); 
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 630px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column; 
+}
+
+.Image5 {
+  background-image: url('img/ProgramNami.jpg'); 
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 630px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column; 
+}				
+
+.Image6 {
+  background-image: url('img/RiverSpiritNami.jpg'); 
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 630px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column; 
+}				
+
+ul {
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+	

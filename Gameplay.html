@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Nami Gameplay</title>
+ <link href='format.css' rel='stylesheet'>
+ <link href='layout.css' rel='stylesheet'>
+</head>
+
+<body>
+  <h1>How to play as Nami</h1>
+<div class="content">
+<p id="currentDateTime"></p>
+<script>       
+    function displayCurrentDateTime() {
+        var date = new Date();
+            var options = {
+                weekday: 'long', 
+                year: 'numeric',
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: true
+        };
+
+        var formattedDateTime = date.toLocaleString(undefined, options);
+        document.getElementById('currentDateTime').textContent = formattedDateTime;
+        };
+        displayCurrentDateTime();
+</script>
+</div>
+<hr>
+<p>
+<video width="700px" height="500px" controls="controls">
+    <source src="img/Nami.mp4" type="video/mp4">
+</video>
+</p>
+<hr>
+<div class="content">
+<p id="countdown"></p>
+<script>
+  function startCountdown(duration, display) {
+    let timer = duration;
+    setInterval(function () {
+      const minutes = Math.floor(timer / 60);
+      const seconds = timer % 60;
+      const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
+      const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
+      display.textContent = formattedMinutes + ":" + formattedSeconds;
+      if (--timer < 0) {
+        timer = duration;
+      }
+    }, 1000);
+  }
+  const threeMinutes = 180;
+  const countdownDisplay = document.getElementById("countdown");
+  startCountdown(threeMinutes, countdownDisplay);
+</script>
+</div>
+<div id="Directory">
+<div class="Directory">
+    <h1>Directory</h1>
+  <nav>
+   <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./Lore.html">Lore</a></li>
+	<li><a href="./Artwork.html">Artwork</a></li>
+	<li><a href="./Gameplay.html">Gameplay</a></li>
+	<li><a href="./aboutme.html">About Me</a></li>
+   </ul>
+  </nav>
+</div>
+</body>
+</html>
+
